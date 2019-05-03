@@ -8,10 +8,10 @@ class MainActivity : AppCompatActivity(), StaticFragment.OnSelectOption {
     override fun onAction(id: Int) {
         var content = when (id) {
             1 -> {
-                "Hola"
+                "left"
             }
             2 -> {
-                "Wiii"
+                "rigth"
             }
             else -> {
                 "Fuck!"
